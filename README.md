@@ -1,8 +1,9 @@
 # Openssl_EVP_Sample
 Encrypt and Decryption of a file using aes256_cbc type of encryption method.
 
-Machine: Any Windows Version
-Visual Studio 2015 or later.
+Machine: Any Windows Version \n
+Visual Studio 2015 or later. \n
+Openssl 3.0 \n
 
 1. Open VS<version> x64 Native Tools Command Prompt.
 2. cl.exe EncryptDecrypt.c /I <openssl_include_directory> libcrypto.lib
